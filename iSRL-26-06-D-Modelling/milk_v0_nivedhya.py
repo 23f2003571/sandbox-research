@@ -9,7 +9,7 @@ import os
 # Adds 'D:\PyDB' to the search path
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..")))
 
-from db import Database, Source, IngredientForm, FormOf, VarietyOf
+from wheat_examples import Database, Source, IngredientForm, FormOf, VarietyOf
 
 db = Database()
 # Sources
